@@ -8,3 +8,10 @@ First, I obtained samples for Cystic Fibrosis from the GEO database (GSE141535).
 - DESeq2
 
 > More information can be found in the 'Report' file.
+
+# File Guide
+- `all_results`: Final raw/unfiltered output of the DESeq2 function.
+- `counts_data`: Original dataset used.
+- `filtered_results`: Filtered results based on p.adj < 0.05 & LFC > 1.
+- `main.R`: Main R script.
+- `top_DEGs`: Top DEG hits.
